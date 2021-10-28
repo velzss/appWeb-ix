@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    height: 80px;
+    border: 2px solid;
+    padding: 10px;
+    background-color: #135eb8;
+    color: white;
+}
+
+#menu{
+    float: right;
+    height: 70px;
+    background: transparent;
+}
+
+#menu ul li{
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+#menu ul li a:hover{
+    color: black;
+    transform: scale(1.2,1.2);
+}
